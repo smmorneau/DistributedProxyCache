@@ -4,10 +4,10 @@ DistributedProxyCache
 A distributed proxy cache that emulates Apple's Bonjour service to coordinate
 with peers.
 
-RUN: java -jar dcache.jar <port>
+RUN: java -jar dcache.jar {port}
 Example: java -jar dcache.jar 9999
 
-This will output: "Usage: Go to <ip>:<port>/<url> in your browser."
+This will output: "Usage: Go to {ip}:{port}/{url} in your browser."
 Going to http://192.168.1.7:9999/www.google.com in your browser will return
 www.google.com as served from the distributed web cache.
 
