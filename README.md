@@ -1,4 +1,4 @@
 DistributedProxyCache
 =====================
 
-A distributed proxy cache that emulates Apple's Bonjour to coordinate with peers.
+A distributed proxy cache that emulates Apple's Bonjour service to coordinate with peers.
